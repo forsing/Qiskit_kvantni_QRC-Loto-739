@@ -80,9 +80,9 @@ torch.set_num_threads(1)
 torch.use_deterministic_algorithms(True)
 
 DEFAULT_FILES = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_2974.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_plus_1730.csv",
+    "/data/loto7_4704_k83.csv",
+    "/data/loto7_4704_k83_loto_2974.csv",
+    "/data/loto7_4704_k83_loto_plus_1730.csv",
 )
 
 BALLS = 39
@@ -1118,7 +1118,7 @@ Dijagnostika prethodnog kola: CDF-MSE=0.14461936; prosečni pogoci=1.1406
   Završno učenje: svih 4703 istorijskih prelaza
     Iteracija 1/3
     Prihvaćenih koraka: 3
-NEXT: 2, 13, 21, 24, 27, 29, 31
+NEXT: 2, x, 21, y, 27, z, 31
 Log-masa NEXT unutar naučene zajedničke raspodele: -7.99275707
 Dijagnostika: najduži uzastopni niz=1; brojeva 1–19=2; brojeva 20–39=5
 Marginalni modovi pozicija, samo dijagnostika:
@@ -1151,7 +1151,7 @@ Dijagnostika prethodnog kola: CDF-MSE=0.14432566; prosečni pogoci=1.3125
   Završno učenje: svih 2973 istorijskih prelaza
     Iteracija 1/1
     Prihvaćenih koraka: 1
-NEXT: 9, 13, 29, 31, 34, 37, 38
+NEXT: 9, x, 29, y, 34, z, 38
 Log-masa NEXT unutar naučene zajedničke raspodele: -8.94821625
 Dijagnostika: najduži uzastopni niz=2; brojeva 1–19=2; brojeva 20–39=5
 Marginalni modovi pozicija, samo dijagnostika:
@@ -1192,7 +1192,7 @@ Dijagnostika prethodnog kola: CDF-MSE=0.14873120; prosečni pogoci=1.2812
     Iteracija 10/19
     Iteracija 15/19
     Prihvaćenih koraka: 19
-NEXT: 3, 10, 19, 20, 24, 31, 38
+NEXT: 3, x, 19, y, 24, z, 38
 Log-masa NEXT unutar naučene zajedničke raspodele: -7.93142923
 Dijagnostika: najduži uzastopni niz=2; brojeva 1–19=3; brojeva 20–39=4
 Marginalni modovi pozicija, samo dijagnostika:
@@ -1202,9 +1202,9 @@ Ista kombinacija u istoriji: 0
 
 ======================================================================
 ZAVRŠNE NEXT KOMBINACIJE
-loto7_4704_k83.csv: 2, 13, 21, 24, 27, 29, 31
-loto7_4704_k83_loto_2974.csv: 9, 13, 29, 31, 34, 37, 38
-loto7_4704_k83_loto_plus_1730.csv: 3, 10, 19, 20, 24, 31, 38
+loto7_4704_k83.csv: 2, x, 21, y, 27, z, 31
+loto7_4704_k83_loto_2974.csv: 9, x, 29, y, 34, z, 38
+loto7_4704_k83_loto_plus_1730.csv: 3, x, 19, y, 24, z, 38
 """
 
 
